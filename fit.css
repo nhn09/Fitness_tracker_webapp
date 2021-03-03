@@ -1,0 +1,220 @@
+body,html
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+
+}
+
+.image1,.image2,.image3
+{
+    position: relative;
+    opacity:0.70;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    /*parallax*/
+
+    background-attachment:fixed;
+
+}
+
+.image1
+{
+
+    background-image: url(../image/sunrise-open.jpg);
+    min-height: 100%;
+}
+
+.image2
+{
+
+    background-image: url(../image/fitness-two.jpg);
+    min-height: 400px;
+}
+
+
+
+
+
+.image3
+{
+
+    background-image: url(../image/fitness-three.jpg);
+    min-height: 400px;
+}
+
+.section{
+
+    text-align: center;
+    padding: 50px 80px;
+}
+
+
+.section-light
+{
+background-color: #f4f4f4;
+color: #666;
+}
+
+
+
+.section-dark
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+
+.text1
+{
+ position: absolute;
+ top:50%;
+ width: 100%;
+ text-align: center;
+ color: #000;
+ font-size: 27px;
+ letter-spacing: 8px;
+ text-transform: uppercase;
+ 
+}
+
+
+.border
+{
+
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+  .border.trans
+{
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    
+    
+}
+
+.begin{
+
+    padding: 1.5em;
+    background-color: cornflowerblue;
+    margin:1em 1em 1em 1em;
+    color: aliceblue;
+    background: linear-gradient(90deg,cornflowerblue,transparent);
+    position: relative;
+
+    
+}
+
+.main_div
+{
+    display: flex;
+}
+
+.filler
+{
+    background-color: transparent;
+    width: 300px;
+    min-width: 20px;
+}
+
+.regular
+{
+    
+    height: 15em;
+    width: 15em;
+    border-radius: 30%;
+    position: relative;
+    border-style: ridge;
+    
+}
+
+#st_title
+{
+    text-align: center;
+    margin: 30px 10px 10px 10px;
+    background-color: teal;
+    border-radius: 20%;
+
+}
+
+#st_box
+{
+    left: 2.5em;
+}
+
+#main-div-for-image1{
+    background-image:url(../image/Fitness_track_image.jpg);
+    outline: 2px solid;
+    background-size: 100%;
+    background-position: top -50% ;
+}
+
+#st_box:hover
+{
+  
+    animation: box-anim 450ms ease-in forwards;
+    
+}
+
+#rd_box
+{
+    right: 2.5em;
+}
+
+@keyframes box-anim
+{
+    100%
+    {
+        background-color:rgb(61, 116, 218);
+        border-color: white;
+        height: 16em;
+        width: 16em;
+        border-radius: 30%;
+        transition:ease-in
+    }
+}
+
+*/
